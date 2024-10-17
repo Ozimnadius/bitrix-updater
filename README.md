@@ -1,1 +1,1 @@
-# bitrix-updater
+# bitrix-updater Beta

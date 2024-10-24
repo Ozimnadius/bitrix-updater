@@ -96,9 +96,9 @@ class Upgrader
         $this->setVersion();
 
         foreach ($this->files as $value) {
-            if (pathinfo($value, PATHINFO_EXTENSION) == "php") {
+           /* if (pathinfo($value, PATHINFO_EXTENSION) == "php") {
                 $this->convertFileTo1251($value);
-            }
+            }*/
         }
 
         return $this->files;
